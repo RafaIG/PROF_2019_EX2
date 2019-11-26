@@ -10,10 +10,10 @@ public class ClaseExamenTest {
 	private ClaseExamen c = new ClaseExamen();
 
 	// Test invalido 1
-//	@Test(expected = EntradaInvalida.class)
-//	public void testInvalido() throws EntradaInvalida {
-//		c.primos(1);
-//	}
+	@Test(expected = EntradaInvalida.class)
+	public void testInvalido() throws EntradaInvalida {
+		c.primos(1);
+	}
 
 	// Test correcto 6
 	@Test
